@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --cor1: #d1363a;
+    --cor2: #ff7d66;
+    --cor3: #fff;
+    --cor4: #6679C5;
+    --cor5: #4c4c52;
+    --corfundo: #150f11;
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+/*----------------------------------------*/
+
+.menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: var(--corfundo);
+    gap: 35px;
+}
+
+.menu-logo {
+    height: 36px;
+    border-radius: 50%;
+}
+
+.menu-lista-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    justify-content: center;
+    margin: 15px 0 10px 0;
+}
+
+.menu-link {
+    color: var(--cor1);
+    text-decoration: none;
+    font-family:'Mark Pro',Arial,sans-serif;
+    font-weight: bold;
+}
+
+.menu-link:hover {
+    color: var(--cor2);
+    text-shadow: 1px 1px var(--clr-itp-3);
+    transition: .3s;
+}
+
+/* ------------------------------------- */
+
+
+header {
+    height: 85vh;
+    background-image: url(../Exercício\ 03/img/img02.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex {
+    width: 80%;
+    text-align: center;
+}
+
+.d-flex div {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.h1 {
+    font-size: 100px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: var(--corfundo);
+    text-shadow: 1px 1px 1px var(--cor1), -1px -1px 1px var(--cor2);
+    border-bottom: 3px solid var(--clr-itp-2);
+    line-height: .8;
+}
+
+header h2 {
+    font-size: 35px;
+    color: var(--cor6);
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px var(--cor1), -1px -1px 1px var(--cor4);
+}
+
+/*--------------------------------------------*/
+main {
+    color: var(--corfundo);
+}
+
+.jogos {
+    background-color: var(--corfundo);
+    color: var(--cor3);
+}
+
+.jogos-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jogos-titulo {
+    padding: 45px 0 15px;
+    color: var(--cor1);
+    font-size: 4em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.jogos-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 25px 0;
+}
+
+.img-container {
+    height: 25vh;
+    width: 23%;
+    border: 1px solid var(--corfundo);
+    border-radius: 5px;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container h3 {
+    text-shadow: 1px 1px 1px var(--cor5), -1px -1px 1px var(--cor5);
+}
+
+.img-container:hover {
+    box-shadow: 3px 3px 5px var(--cor1), -3px -3px 5px var(--cor2);
+}
+
+#img1 {
+    background-image: url(../Exercício\ 03/img/viper.jpg);
+}
+
+#img2 {
+    background-image: url(../Exercício\ 03/img/omen.jpg);
+}
+
+#img3 {
+    background-image: url(../Exercício\ 03/img/KJ.jpg);
+}
+
+#img4 {
+    background-image: url(../Exercício\ 03/img/Cypher.jpg);
+}
+
+#img5 {
+    background-image: url(../Exercício\ 03/img/sova.jpg);
+}
+
+#img6 {
+    background-image: url(../Exercício\ 03/img/Sage.jpg);
+}
+
+#img7 {
+    background-image: url(../Exercício\ 03/img/Jett.jpg);
+}
+
+#img8 {
+    background-image: url(../Exercício\ 03/img/Reyna.jpg);
+}
+
+#img9 {
+    background-image: url(../Exercício\ 03/img/Raze.jpg);
+}
+
+#img10 {
+    background-image: url(../Exercício\ 03/img/kayo.jpg);
+}
+
+#img11 {
+    background-image: url(../Exercício\ 03/img/Astra.jpg);
+}
+
+#img12 {
+    background-image: url(../Exercício\ 03/img/Neon.jpg);
+}
+
+
+.cards {
+    text-align: center;
+    background-color: var(--cor4);
+    padding: 30px;
+}
+
+.cards h3 {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 100;
+    padding: 30px 0 15px;
+}
+
+.card-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 24%;
+    text-align: justify;
+    border: 1px solid var(--clr-itp-7);
+    border-radius: 5px;
+}
+
+.card-img {
+    height: 25vh;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url(../Exercício\ 03/img/breeze.jpg);
+}
+
+.img2 {
+    background-image: url(../Exercício\ 03/img/bind.jpg);
+}
+
+.img3 {
+    background-image: url(../Exercício\ 03/img/ascent.jpg);
+}
+
+.img4 {
+    background-image: url(../Exercício\ 03/img/icebox.jpg);
+}
+
+
+.card-text {
+    font-size: small;
+    line-height: 1.5;
+    padding: 10px;
+
+}
+
+.card-footer {
+    padding: 15px 0;
+    text-align: center;
+    text-indent: 0;
+}
+
+.card-footer a {
+    background-image: radial-gradient( #d1363a, #ff7d66);
+    color: var(--cor3);
+    text-decoration: none;
+    font-size: small;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.card-footer a:hover {
+    border: 1px solid var(--clr-itp-2);
+    background-image: radial-gradient( #d4585c, #eb8674);
+    transition: .3s;
+}
+
+
+
+/* ------------------------------------- */
+
+.footer {
+    background-color: var(--corfundo);
+    color: var(--cor3);
+    padding: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    gap: 15px;
+    justify-content: right;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+/* ------------------------ */
+/* media queries */
+/* ------------------------ */
+
+@media screen and (max-width:900px) {
+
+
+    header {
+        background-image: url(../Exercício\ 03/img/img02.gif);
+        background-position: center;
+        height: 70vh;
+    }
+
+    .menu {
+        justify-content: space-between;
+    }
+
+    .footer ul {
+        justify-content: left;
+    }
+
+    .d-flex {
+        text-align: center;
+    }
+
+    .d-flex div {
+        text-align: center;
+
+    }
+
+    /* -------------- */
+    .img-container {
+        width: 30%;
+    }
+
+    #img10,
+    #img11,
+    #img12 {
+        display: none;
+    }
+
+    .d-none-900 {
+        display: none;
+    }
+
+    .card-container .card {
+        width: 31%;
+    }
+
+    .card-footer {
+        text-align: right;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    header {
+        background-image: url(../Exercício\ 03/img/img01.gif);
+        background-position: center;
+        height: 50vh;
+    }
+
+    .menu {
+        display: block;
+        text-align: center;
+    }
+
+    .footer ul {
+        justify-content: center;
+    }
+
+    /* --------------- */
+
+    .img-container {
+        width: 47%;
+    }
+
+    #img1,
+    #img2,
+    #img5,
+    #img7,
+    #img8 {
+        display: none !important;
+    }
+
+    .d-none-600 {
+        display: none;
+    }
+
+    .card-container .card {
+        width: 47%;
+    }
+
+    .card-footer {
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .jogos-titulo {
+        text-align: center;
+    }
+
+}
